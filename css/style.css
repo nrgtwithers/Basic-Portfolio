@@ -1,0 +1,140 @@
+html, body {
+    background-image: url("../assets/images/gravel.png");
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#777777;
+}
+
+
+.main {
+    width: 960px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header{
+    float: left;
+    height: 70px;
+    width:100%;
+    border-color: #cccccc;
+    border-bottom: 2px;
+    margin-top: 0px;
+    position: fixed;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.boxed {
+    border: 1px solid #4aaaa5 ;
+    width: 300px;
+    height: 75px;
+    background-color: #4aaaa5;
+    color:white;
+    margin-left: 100px;
+  } 
+
+  a:hover{
+    color: #4aaaa5;
+  }
+
+.navbar li a {
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 100px;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar ul {
+    text-align: right;
+  }
+
+li{
+    border-right: 1px solid #bbb;
+    text-align: center;
+    color: grey;
+}
+
+
+h1 {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: #4aaaa5;
+}
+
+hr {
+    width: 80%;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #666666;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #fffFff;
+    padding: 20px;
+}
+
+.images{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+        width: 150px; 
+}
+
+#images{
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px; 
+    position: absolute;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: white;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
