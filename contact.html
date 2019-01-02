@@ -4,12 +4,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Basic Portfolio</title>
+  <title>Nina Rose Withers | Basic Portfolio</title>
   <link rel="stylesheet" type="text/css" href="./css/reset.css" />
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 
 <body>
+  <!-- Navbar Header Area -->
   <div class="header">
     <div class="container-fluid">
       <nav class="navbar">
@@ -26,33 +27,32 @@
       </nav>
     </div>
   </div>
+  <!-- Content Area -->
+  <div id="contact">
+    <div class="container">
+      <div class="content">
+        <h2>Contact</h2>
+        <br>
+        <hr>
+        <br>
+        <!-- Contact Form -->
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith">
 
-  <main>
-    <div id="contact">
-      <div class="container">
-        <div class="content">
-          <h2>Contact</h2>
-          <hr>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-          <!-- <form action="action_page.php"> -->
-          <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+          <input type="submit" value="Submit">
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-
-          </form>
-      </div>
+        </form>
       </div>
     </div>
-  </main>
-
+  </div>
+  <!-- Footer -->
   <div class="footer">
     <div class="bottom">
       <span>Copyright &copy; 2018</span>
